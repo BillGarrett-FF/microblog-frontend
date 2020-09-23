@@ -14,9 +14,9 @@ export const configurationFetchedHandler = fetcherResults => {
   }
 }
 
-
 async function initRollout () {
   const options = {
+    configurationFetchedHandler: configurationFetchedHandler
   }
 
   Rox.register('default', Flags)
