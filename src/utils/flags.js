@@ -14,6 +14,7 @@ export const configurationFetchedHandler = fetcherResults => {
   }
 }
 
+
 async function initRollout () {
   const options = {
   }
